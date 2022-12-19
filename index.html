@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="img/icon.png" type="image/png">
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;900&family=Mochiy+Pop+P+One&family=Poppins&display=swap" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khalid 2022</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div>
+                <a class="btn" href="#">ادخل الكود</a>
+            </div>
+            <ul>
+                <li><a href="#">حول الموقع</a></li>
+                <li><a href="#">2022</a></li>
+                <li><a href="#">الرئيسية</a></li>
+            </ul>
+            <img class="logo" src="img/logo.png" alt="kdxawards">
+        </nav>
+        <div class="content">
+            <h1 class="anim">شكراً <br> لكونك جزء مهم من عام 2022 بالنسبة لى</h1>
+            <p class="anim">كان عام 2022 ملئ بـ الذكريات الجيدة و كونك هنا تستخدم هذا الموقع يعنى انك جزء من تلك الذكريات الجيدة لذلك شكرا كثيرا لك على كل تلك الذكريات لهذا العام و اتمنى ان تستمر صداقتنا عاماً تلو الاخر لنصنع الكثير من الذكريات الجيدة مجدداً, قم ب ادخال الكود الخاص بك لترى كيف كان عامنا فى 2022</p>
+            <form action="">
+                <input placeholder="الكود" class="inp anim" name="code" id="code"/>
+            </form>
+            <a class="btntwo anim" id="btntwo">قم بـ ادخال الكود</a>
+            <!-- <span><img src="img/friends.png" alt="friends" class="friends anim"></span> -->
+        </div>
+        <img src="img/friends.png" alt="friends" class="friends anim">
+    </div>
+    <script>
+        var username = document.getElementById("code");
+            var btn = document.getElementById("btntwo");
+            btn.onclick = function(){
+                var codelen = code.value.trim();
+              if(codelen.length == 0){
+                    alert("Insert code");
+                }
+                if(codelen == 1022004){
+                    window.location.href='shahd.html';
+                }
+            }
+    </script>
+</body>
+</html>
